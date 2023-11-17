@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+
+
+</head>
+
+<body>
+    <h1>Stock Market Analysis</h1>
+    <!-- Chart Section -->
+    <div id="container">
+        <div id="chart">
+            <canvas id="stockChart" style="width:100%;"></canvas>
+            <div id="monthBtn">
+                <button id="oneMon" value="1mo">1 Month</button>
+                <button id="threeMon" value="3mo">3 Month</button>
+                <button id="oneYr" value="1y">1 Year</button>
+                <button id="fiveYr" value="5y">5 Year</button>
+            </div>
+
+        </div>
+
+        <!-- List section -->
+        <div id="stockList">
+            <ul id="stockItems">
+            </ul>
+        </div>
+
+        <!-- Detail section -->
+        <div id="stockDetails">
+            <div id="stocksInfo">
+                <span id="name"></span>
+                <span id="profit"></span>
+                <span id="bookValue"></span>
+            </div>
+            <p id="summary"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

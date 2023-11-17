@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(5, 5, 46);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+#chart{
+    background-color: rgb(7, 7, 121);
+    width: 55%;
+    border-radius: 10px;
+    margin: 0 2%;
+}
+
+#monthBtn{
+    text-align: center;
+    padding: 10px;
+}
+#monthBtn button{
+    margin-right: 5%;
+    background-color: rgb(87, 87, 253);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 10%;
+    font-weight: bolder;
+}
+/* stocklist */
+
+#stockList{
+    width: 25%;
+    margin-right: 5%;
+}
+#stockItems li{
+       margin-bottom: 5%;
+       list-style: none;
+}
+#stockItems li button,span{
+    margin-right: 6%;
+    width: 20%;
+}
+#stockItems li button{
+    background-color: blue;
+    border-radius: 4px;
+    padding: 2%;
+}
+#name , #profit , #bookValue{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+#stocksInfo span{
+    margin-right: 1%;
+}
+#stockDetails{
+    margin: 2% 2%;
+}
